@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+.DS_Store
+
+# PHP specific
+vendor/
+uploads/
+
+# Environment variables
+.env
+
+# Vite build folder
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
