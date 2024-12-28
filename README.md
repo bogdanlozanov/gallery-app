@@ -28,8 +28,6 @@ A full-stack web application for managing image galleries, allowing users to upl
 
 ---
 
----
-
 ## Setup and Installation
 
 ### Prerequisites
@@ -42,7 +40,7 @@ A full-stack web application for managing image galleries, allowing users to upl
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/gallery-app.git
+   git clone https://github.com/bogdanlozanov/gallery-app.git
    cd gallery-app/backend
    ```
 
@@ -146,9 +144,3 @@ A full-stack web application for managing image galleries, allowing users to upl
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for improvements or new features.
-
----
-
-## License
-
-This project is licensed under the MIT License.
