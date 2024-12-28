@@ -28,49 +28,6 @@ A full-stack web application for managing image galleries, allowing users to upl
 
 ---
 
-## Project Structure
-
-### Backend
-- **Folder**: `backend`
-- Built using PHP and MySQL.
-- APIs for authentication, image upload, commenting, and rating.
-- Directory Structure:
-  ```
-  backend/
-  ├── api/
-  │   ├── images.php      # Image upload and fetch APIs
-  │   ├── comments.php    # Comments APIs
-  │   ├── ratings.php     # Ratings APIs
-  │   ├── users.php       # User authentication APIs
-  ├── uploads/            # Directory to store uploaded images
-  ├── db.php              # Database connection
-  ├── auth.php            # JWT validation logic
-  ├── cors.php            # Cross-Origin Resource Sharing (CORS) configuration
-  ├── .env                # Environment variables
-  ```
-
-### Frontend
-- **Folder**: `frontend`
-- Built using React with Styled-Components and Vite.
-- Pages:
-  - `Gallery`: Displays all uploaded images.
-  - `Image Details`: View an image with comments and ratings.
-  - `Login` and `Register`: User authentication.
-  - `Upload`: Upload a new image.
-- Directory Structure:
-  ```
-  frontend/
-  ├── src/
-  │   ├── components/    # Reusable UI components (Button, Input, etc.)
-  │   ├── pages/         # Application pages (Gallery, Upload, etc.)
-  │   ├── api.js         # API service for making requests
-  │   ├── App.jsx        # Application entry point
-  │   ├── index.css      # Global styles
-  │   ├── theme.js       # Theme configuration for Styled-Components
-  └── public/
-      ├── index.html     # HTML template
-  ```
-
 ---
 
 ## Setup and Installation
